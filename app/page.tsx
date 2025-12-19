@@ -144,7 +144,7 @@ export default function Home() {
     setResult(null)
 
     try {
-      const response = await fetch("https://webaudithq.onrender.com/api/analyze", {
+      const response = await fetch("https://webaudithq-backend.onrender.com/api/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
